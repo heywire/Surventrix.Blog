@@ -1,15 +1,59 @@
----
-layout: layout
----
-<div class="post">
-  <h1 class="post-title">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h1>
-  <p class="post-date">{{ post.date | date_to_string  }}</p>
-  <div>
-    {{content}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/stylesheets/print.css" media="print" />
 
-    Thanks you
-    The Surventrix Team
-  </div>
-</div>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title> {% if page.title %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    Surventrix Blog</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1><a href="/">Surventrix Blog</a></h1>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+         <div class="post">
+           <h1 class="post-title">
+             <a href="{{ post.url }}">{{ post.title }}</a>
+           </h1>
+           <p class="post-date">{{ post.date | date_to_string  }}</p>
+           <div>
+             {{content}}
+
+             Thanks you
+             The Surventrix Team
+           </div>
+         </div>
+        </section>
+
+        <aside id="sidebar">
+
+          <a href="https://surventrix.net" class="button">
+            https://surventrix.net
+          </a>
+          <a href="http://help.surventrix.net"  class="button">
+           http://help.surventrix.net
+          </a>
+          <p>Having trouble with our site? Contact us <a href="https://surventrix.net/contact">here</a> or send us an email to support@surventrix.com and we will help sort it out.</p>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
