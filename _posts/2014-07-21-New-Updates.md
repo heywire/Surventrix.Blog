@@ -23,7 +23,7 @@ out again.
   apple)
 - s: Will take you to the search bar
 - ←: Inside a field dialog will navigate to the previous field in the report
-  →: Inside a field dialog will navigate to the next field in the report
+- →: Inside a field dialog will navigate to the next field in the report
 
 #### The navigation bar is different
 
