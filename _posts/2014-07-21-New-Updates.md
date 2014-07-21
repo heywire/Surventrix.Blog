@@ -6,13 +6,13 @@ title: New Report Writer
 We have successfully migrated our templates to a new and improved system.
 
 This means reports are now easier to fill out and the flexibility in our templates
-have improved massively.
+has improved massively.
 
-If you do experience any issues please do contact us at support@surventrix.com
-so we can address those issues for you.
+If you experience any issues please contact us at support@surventrix.com
+so we can address them for you.
 
-Just a reminder that any uncompleted reports before this weekend will have some
-data missing, so make sure to check your reports, and they may need to be filled
+Just a reminder that any uncompleted reports before this weekend will now have some
+data missing, so make sure to check your reports. Some fields may need to be filled
 out again.
 
 ## Some tips on the new report writer
@@ -30,15 +30,15 @@ out again.
 
 ![image](https://cloud.githubusercontent.com/assets/658005/3641705/64975380-10b7-11e4-992c-57d3f1c54da5.png)
 
-- A search bar that will help you find a specific field, click into the search
+- A search bar that will help you find a specific field. Click into the search
   bar and type in something.
 
 
 ![image](https://cloud.githubusercontent.com/assets/658005/3641730/c0edf850-10b7-11e4-93bb-665e10ee61f9.png)
 
-- Once you have click enter on a field from the drop down, you will open up a
+- Once you have clicked Enter on a field from the drop down, you will open up a
   dialog box in which you can fill out your input. Note all fields are saved
-  one field at a time, you can fix any issues at that moment.
+  one field at a time.
 
 ![image](https://cloud.githubusercontent.com/assets/658005/3641831/31ff75fe-10b9-11e4-872b-6703c9c9515d.png)
 
@@ -50,7 +50,7 @@ with a yellow background, clicking on the field will open up the field dialog.
 ![image](https://cloud.githubusercontent.com/assets/658005/3643271/d960fb62-10d0-11e4-866c-c4341a906c47.png)
 
 Navigate between fields by clicking on the left or right arrow on your keyboard
-whilst the fields dialog is open, alternatively you can click the left or right
+whilst the fields dialog is open. Alternatively you can click the left or right
 arrow in the dialog.
 
 ![image](https://cloud.githubusercontent.com/assets/658005/3643291/1781829a-10d1-11e4-80c0-fdd834c02130.png)
@@ -66,6 +66,5 @@ red reload button in the navigation bar at the top.
 
 - You can also download a preview of the PDF.
 
-If you do experience any issues, please do contact us at support@surventrix.com
+If you do experience any issues, please contact us at support@surventrix.com
 
-Thank you for all your support.
